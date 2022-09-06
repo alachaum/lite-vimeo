@@ -148,7 +148,7 @@ export class LiteVimeoEmbed extends HTMLElement {
           display: block;
           position: absolute;
           top: 0;
-          background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQyyazA4aoAB4FsBSA/bFjuF1EOL7VbrIrBuusmrt4ZZORfb6ehbWdnRHEIiITaEUKa5EJqUakRSaEYBJSCY2dEstQY7AuxahwXFrvZmWl2rh4JZ07z9dLtesfNj5q0FU3A5ObbwAAAABJRU5ErkJggg==);
+          background-image: none;
           background-position: top;
           background-repeat: repeat-x;
           height: 60px;
@@ -167,6 +167,7 @@ export class LiteVimeoEmbed extends HTMLElement {
           border-radius: 10%;
           transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
           border: 0;
+          cursor: pointer;
         }
         #frame:hover .lvo-playbtn {
           background-color: rgb(98, 175, 237);
